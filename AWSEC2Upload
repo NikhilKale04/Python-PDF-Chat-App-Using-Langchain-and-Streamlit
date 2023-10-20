@@ -1,0 +1,10 @@
+# Run commands
+python3 -m streamlit run filename.py
+
+# Run permanent 
+nohup python3 -m streamlit run filename.py
+[Close Terminal, app will run as a service for permanent]
+
+# Stop Application
+ps -ef (Get process ID from here)
+kill [id]
